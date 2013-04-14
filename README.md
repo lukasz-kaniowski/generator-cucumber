@@ -3,8 +3,14 @@
 Generator bootstraps base structure for running cucumber tests.
 
 ## Installation
+    
+Install generator globally  
 
-    $ npm install generator-cucumber zombie cucumber
+    $ npm install -g generator-cucumber
+    
+Install dependency for running your tests 
+
+    $ npm instal zombie cucumber
 
 ## Usage
 
