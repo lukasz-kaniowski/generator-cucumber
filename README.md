@@ -10,7 +10,7 @@ Install generator globally
     
 Install dependency for running your tests 
 
-    $ npm instal zombie cucumber
+    $ npm install zombie cucumber
 
 ## Usage
 
