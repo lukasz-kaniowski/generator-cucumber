@@ -16,3 +16,7 @@ Install dependency for running your tests
 
     $ yo cucumber
     $ cucumber.js features/sample.feature -f pretty
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lukasz-kaniowski/generator-cucumber/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
