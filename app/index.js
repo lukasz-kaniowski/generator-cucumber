@@ -1,9 +1,15 @@
 'use strict';
+var yeoman = require('yeoman-generator');
+// var chalk = require('chalk');
+// var yosay = require('yosay');
 
-var Generator = module.exports = function (args, options) {
+module.exports = yeoman.Base.extend({
 
+  writing: function () {
+     this.fs.copy(
+       this.templatePath('.'),
+       this.destinationPath('features')
+     );
+   }
 
-  this.directory('.', 'features');
-};
-
-Generator.name = 'Cucumber';
+});
